@@ -4,7 +4,7 @@ server:
     context-path: /vitalsigndetails
 spring:
   datasource:
-    username: ${dbusername}
+    username: ${dbusernamee}
     url: jdbc:mysql://localhost:3306/testdb
     password: ${dbpassword}
     driver-class-name: com.mysql.cj.jdbc.Driver

@@ -25,4 +25,8 @@ management:
     endpoints:
       web:
         exposure:
-          include: "metrics"
+          include: "*"
+rabbitmq:
+    queue: patient_queue
+    exchange: patient_exchange
+    routingkey: patient_key

@@ -20,3 +20,5 @@ spring:
 server:
   servlet:
     context-path: /userroles
+ logging:
+    file: elk-example.log

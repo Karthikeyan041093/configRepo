@@ -16,9 +16,10 @@ spring:
       time-to-live: '600000'
       cache-null-values: 'true'
   redis:
-    port: '6379'
+    port: '6379' 
 server:
   servlet:
     context-path: /userroles
 logging:
-    file: elk-example.log
+    file:
+        name: C:\Users\Admin\Downloads\ELK_STACK\LOGS\USERROLES\elk-example.log
